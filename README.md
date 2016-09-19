@@ -33,3 +33,9 @@ html[hash="completed"] .todoapp .todo-list li.completed {
   display: block;
 }
 ```
+
+## Usage
+
+Include somewhere on your page, we ain't fancy here:
+
+`	<script src="http://rawgit.com/gavinengel/rehash/master/rehash.js" type="text/javascript"></script>`
