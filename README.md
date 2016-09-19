@@ -1,4 +1,4 @@
-# rehash
+# rehash.js
 
 Add the URL hash to the HTML-tag, so we can use CSS more effectively
 
