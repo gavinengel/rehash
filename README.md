@@ -1,6 +1,6 @@
 # rehash.js
 
-Add the URL hash to the HTML-tag, so we can use CSS more effectively
+Add the URL hash to the HTML-tag, so we can use CSS more effectively.  Allows you to avoid complex routing systems for single-page applications.
 
 ## Example
 
