@@ -2,6 +2,8 @@
 
 Add the URL hash to the HTML-tag, so we can use CSS more effectively.  Allows you to avoid complex routing systems for some single-page applications.
 
+Characters after "?" are ignored, so that a secondary parameter hash system can be integrated in your application.
+
 ## Example
 
 Here are a few URLs in a sample page:
@@ -10,6 +12,7 @@ Here are a few URLs in a sample page:
 2. http://localhost.meow/todomvc/#/active
 3. http://localhost.meow/todomvc/#/completed
 4. http://localhost.meow/todomvc/#/ignore/non\alpha*numeric
+5. http://localhost.meow/todomvc/#/serious?cat=true&dog=false
 
 And this is the resultant html-tag in those cases:
 
@@ -17,6 +20,7 @@ And this is the resultant html-tag in those cases:
 2. `<html hash="active">`
 3. `<html hash="completed">`
 4. `<html hash="ignorenonalphanumeric">`
+5. `<html hash="serious">`
 
 This can be useful for (one example) showing/hiding elements.  Here is a snippet of CSS that I have used with the above code:
 
