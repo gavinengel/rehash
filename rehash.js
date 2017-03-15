@@ -3,7 +3,7 @@ function rehash() {
   var hashAttr = '';
 
   if(window.location.hash) {
-    hashAttr = window.location.hash.replace(/[^a-z0-9]/gi, '');
+    hashAttr = window.location.hash.split('?')[0].replace(/[^a-z0-9]/gi, '');
   } 
 
   document.getElementsByTagName('html')[0].setAttribute('hash', hashAttr);
