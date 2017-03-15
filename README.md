@@ -2,7 +2,7 @@
 
 Add the URL hash to the HTML-tag, so we can use CSS more effectively.  Allows you to avoid complex routing systems for some single-page applications.
 
-Characters after "?" are ignored, so that a secondary parameter hash system can be integrated in your application.
+Characters after "?" are ignored, so that a secondary parameter hash system can be integrated into your application.
 
 ## Example
 
