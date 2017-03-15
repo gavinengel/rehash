@@ -9,5 +9,5 @@ function rehash() {
   document.getElementsByTagName('html')[0].setAttribute('hash', hashAttr);
 }
 
-rehash();
-window.onhashchange = rehash;
+rehash(); // initial execution, in case browser opens to page with hash already
+window.addEventListener("hashchange", rehash, false); // execution on subsequent hash updates
