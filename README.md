@@ -19,10 +19,12 @@ And this is the resultant html-tag in those cases:
 1. `<html hash="">`
 2. `<html hash="active">`
 3. `<html hash="completed">`
-4. `<html hash="ignorenonalphanumeric">`
+4. `<html hash="ignore/nonalphanumeric">`
 5. `<html hash="serious">`
 
-This can be useful for (one example) showing/hiding elements.  Here is a snippet of CSS that I have used with the above code:
+This can be useful for (one example) showing/hiding elements.  Note that a "/" symbol appears in the final hash.  All leading, following, and duplicate "/" sumbols are removed.  
+
+Here is a snippet of CSS that I have used with the above code:
 
 ```
 html[hash="active"] .todoapp .todo-list li.completed {
