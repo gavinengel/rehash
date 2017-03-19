@@ -22,7 +22,7 @@ And this is the resultant html-tag in those cases:
 4. `<html hash="ignore/nonalphanumeric">`
 5. `<html hash="serious">`
 
-This can be useful for (one example) showing/hiding elements.  Note that a "/" symbol appears in the final hash.  All leading, following, and duplicate "/" sumbols are removed.  
+This can be useful for (one example) showing/hiding elements.  Note that a "/" symbol appears in the final hash.  All leading, following, and duplicate "/" symbols are removed.  
 
 Here is a snippet of CSS that I have used with the above code:
 
